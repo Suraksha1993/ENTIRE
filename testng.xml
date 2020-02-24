@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-2.4.dtd"> 
+<suite name="MySuite">
+<listeners>
+ <listener class-name="MyPackage.EntireRediffMailProject"/>
+ </listeners>
+  <test thread-count="5" name="MyTest">
+    <classes>
+      <class name="MyPackage.EntireRediffMailProject"/>
+      <class name="MyPackage.ExecuteClass3"/>
+      <class name="MyPackage.ExecuteClass2"/>
+    </classes>
+  </test> <!-- MyTest -->
+</suite> <!-- MySuite -->

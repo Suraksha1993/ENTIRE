@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite_Testing]">
+  <listeners>
+    <listener class-name="MyPackage.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="MyTest(failed)">
+    <classes>
+      <class name="MyPackage.EntireRediffMailProject">
+        <methods>
+          <include name="HomePage"/>
+          <include name="Done"/>
+        </methods>
+      </class> <!-- MyPackage.EntireRediffMailProject -->
+    </classes>
+  </test> <!-- MyTest(failed) -->
+</suite> <!-- Failed suite [Suite_Testing] -->
